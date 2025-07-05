@@ -18,7 +18,7 @@ import EditPost from "../pages/EditPost.jsx";
 import LoginPage from "../pages/LoginPage.jsx";
 import SignupPage from "../pages/SignupPage.jsx";
 import Post from "../pages/Post.jsx";
-
+import NoPageFound from "./NoPageFound.jsx";
 
 export {
     Header,
@@ -41,7 +41,7 @@ export {
     LoginPage,
     SignupPage,
     Post,
-    
+    NoPageFound,
 
 
 }

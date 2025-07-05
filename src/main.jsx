@@ -5,7 +5,7 @@ import App from './App.jsx'
 import store from './store/store.js'
 import { Provider } from 'react-redux'
 import {  createBrowserRouter, RouterProvider } from 'react-router-dom'
-import { AddPost, AllPosts, EditPost, Home,  LoginPage, Post, ProtectedLayout,  SignupPage } from './components/index.js'
+import { AddPost, AllPosts, EditPost, Home,  LoginPage, NoPageFound, Post, ProtectedLayout,  SignupPage } from './components/index.js'
 
 
 const router = createBrowserRouter(
@@ -66,6 +66,14 @@ const router = createBrowserRouter(
           element: (
             
               <Post />
+            
+          )
+        },
+        {
+          path: '*',
+          element: (
+            
+              <NoPageFound />
             
           )
         }
