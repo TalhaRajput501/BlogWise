@@ -66,7 +66,7 @@ function Post() {
 
 
     return post ? (
-        <div className='bg-gray-900 min-h-screen '>
+        <div className='bg-gray-900 min-h-screen pb-5'>
             <Container>
                 <div className='flex justify-center flex-col items-center w-[90%] sm:w-[80%] mx-auto pt-23 '>
 
